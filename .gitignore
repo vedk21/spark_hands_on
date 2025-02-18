@@ -1,0 +1,58 @@
+# Virtual environment
+venv/
+.env/
+.env.local
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Spark logs and temporary files
+*.eventLog
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Checkpoint and cache directories
+.checkpoint/
+spark-events/
+
+# Hadoop and Spark output files
+*.crc
+*.parquet
+*.orc
+*.avro
+_SUCCESS
+_PARTIAL
+
+# Python dependency files
+*.egg-info/
+*.whl
+*.dist-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build artifacts
+build/
+dist/
+
+# Java/Scala compiled files (if using PySpark with JVM dependencies)
+*.class
+*.jar
+*.java~
+
+# VS Code
+.vscode/
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+
+# Docker-related files
+docker-compose.override.yml
+*.dockerfile
