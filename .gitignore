@@ -57,3 +57,6 @@ dist/
 # Docker-related files
 docker-compose.override.yml
 *.dockerfile
+
+# Data Files
+data/
